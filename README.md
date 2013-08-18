@@ -1,5 +1,5 @@
 DigitalOcean for Lavarel 4
-======================
+==========================
 
 This package allows you to use [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) in [**Laravel 4**](http://laravel.com/).
 
@@ -64,7 +64,31 @@ and the **API Key**.
 Usage
 -----
 
-n/a
+Use the [DigitalOcean API](https://github.com/toin0u/DigitalOcean#api):
+
+```php
+// if you don't want to use the defaut adapter but rather Buzz
+DigitalOcean::setAdapter(new \HttpAdapter\BuzzHttpAdapter());
+$activeDroplets = DigitalOcean::droplets()->showAllActive();
+var_dump($activeDroplets);
+
+// object(stdClass)[61]
+// public 'status' => string 'OK' (length=2)
+// public 'droplets' =>
+//     array (size=1)
+//         0 =>
+//             object(stdClass)[62]
+//                 public 'id' => int 347553
+//                 public 'name' => string 'foobar' (length=6)
+//                 public 'image_id' => int 284212
+//                 public 'size_id' => int 66
+//                 public 'region_id' => int 4
+//                 public 'backups_active' => boolean false
+//                 public 'ip_address' => string '192.241.175.217' (length=15)
+//                 public 'locked' => boolean false
+//                 public 'status' => string 'active' (length=6)
+//                 public 'created_at' => string '2013-01-07T01:37:21Z' (length=20)
+```
 
 
 Changelog
