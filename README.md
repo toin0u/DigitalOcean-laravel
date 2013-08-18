@@ -7,7 +7,7 @@ This package allows you to use [**DigitalOcean**](https://github.com/toin0u/Digi
 Installation
 ------------
 
-It can be found on [Packagist](https://packagist.org/packages/toin0u/geotools-laravel).
+It can be found on [Packagist](https://packagist.org/packages/toin0u/digitalocean-laravel).
 The recommended way is through [composer](http://getcomposer.org).
 
 Edit `compose.json` and add:
