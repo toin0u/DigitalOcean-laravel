@@ -46,7 +46,10 @@ class DigitalOceanServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['digitalocean.credentials'] = $this->app->share(function($app) {
-            return new Credentials($app['digitalocean.client_id'], $app['digitalocean.api_key']);
+            return new Credentials(
+                Config::get('digitalocean::client_id'),
+                Config::get('digitalocean::api_key')
+            );
         });
 
         $this->app['digitalocean'] = $this->app->share(function($app) {

@@ -51,6 +51,15 @@ Find the `aliases` key in `app/config/app.php` and register the **DigitalOcean F
 )
 ```
 
+You need to copy the config file into your project by running:
+
+```bash
+$ php artisan config:publish toin0u/digitalocean-laravel
+```
+
+Finally you need to edit `app/config/packages/toin0u/digitalocean-laravel/config.php` with your **client ID**
+and the **API Key**.
+
 
 Usage
 -----

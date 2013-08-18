@@ -10,6 +10,6 @@
  */
 
 return array(
-    'digitalocean.client_id' => '',
-    'digitalocean.api_key'   => '',
+    'client_id' => 'YOUR_CLIENT_ID',
+    'api_key'   => 'YOUR_API_KEY',
 );
