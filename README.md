@@ -3,6 +3,9 @@ DigitalOcean for Lavarel 4
 
 This package allows you to use [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) in [**Laravel 4**](http://laravel.com/).
 
+[![Latest Stable Version](https://poser.pugx.org/toin0u/DigitalOcean-laravel/v/stable.png)](https://packagist.org/packages/toin0u/DigitalOcean-laravel)
+[![Total Downloads](https://poser.pugx.org/toin0u/DigitalOcean-laravel/downloads.png)](https://packagist.org/packages/toin0u/DigitalOcean-laravel)
+
 
 Installation
 ------------
