@@ -24,6 +24,10 @@
         "toin0u/digitalocean" : "~1.3"
     },
 
+    "require-dev" : {
+        "orchestra/testbench" : "~2.0"
+    },
+
     "autoload" : {
         "psr-0" : {
             "Toin0u\\DigitalOcean" : "src/"
