@@ -16,6 +16,14 @@ namespace DigitalOcean\Tests;
  */
 class DigitalOceanServiceProviderTest extends TestCase
 {
+    public function testLoadedProviders()
+    {
+        $loadedProviders = $this->app->getLoadedProviders();
+
+        $this->assertArrayHasKey('Toin0u\\DigitalOcean\\DigitalOceanServiceProvider', $loadedProviders);
+        $this->assertTrue($loadedProviders['Toin0u\\DigitalOcean\\DigitalOceanServiceProvider']);
+    }
+
     public function testCredentials()
     {
         $credentials = $this->app['digitalocean.credentials'];
