@@ -22,6 +22,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             'Toin0u\DigitalOcean\DigitalOceanServiceProvider',
         );
     }
+
     protected function getPackageAliases()
     {
         return array(

@@ -11,7 +11,7 @@
     bootstrap="tests/bootstrap.php"
     >
     <testsuites>
-        <testsuite name="DigitalOcean API PHP 5.3+ library for Silex Test Suite">
+        <testsuite name="DigitalOcean API PHP 5.3+ library for Laravel4 Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
