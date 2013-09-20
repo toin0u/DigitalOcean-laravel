@@ -11,7 +11,6 @@
 
 namespace Toin0u\DigitalOcean;
 
-use Config;
 use Illuminate\Support\ServiceProvider;
 use DigitalOcean\Credentials;
 use DigitalOcean\DigitalOcean;
@@ -49,8 +48,8 @@ class DigitalOceanServiceProvider extends ServiceProvider
     {
         $this->app['digitalocean.credentials'] = $this->app->share(function($app) {
             return new Credentials(
-                Config::get('digitalocean-laravel::client_id'),
-                Config::get('digitalocean-laravel::api_key')
+                $app['config']->get('digitalocean-laravel::client_id'),
+                $app['config']->get('digitalocean-laravel::api_key')
             );
         });
 
