@@ -7,6 +7,7 @@ This package allows you to use [**DigitalOcean**](https://github.com/toin0u/Digi
 [![Total Downloads](https://poser.pugx.org/toin0u/DigitalOcean-laravel/downloads.png)](https://packagist.org/packages/toin0u/DigitalOcean-laravel)
 [![Build Status](https://secure.travis-ci.org/toin0u/DigitalOcean-laravel.png)](http://travis-ci.org/toin0u/DigitalOcean-laravel)
 [![Coverage Status](https://coveralls.io/repos/toin0u/DigitalOcean-laravel/badge.png)](https://coveralls.io/r/toin0u/DigitalOcean-laravel)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/e0ddcf83-1a5c-45ee-a8fb-53de345eecfe/mini.png)](https://insight.sensiolabs.com/projects/e0ddcf83-1a5c-45ee-a8fb-53de345eecfe)
 
 
 Installation
