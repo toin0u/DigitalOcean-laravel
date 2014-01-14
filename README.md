@@ -94,6 +94,7 @@ var_dump($activeDroplets);
 //                 public 'region_id' => int 4
 //                 public 'backups_active' => boolean false
 //                 public 'ip_address' => string '192.241.175.217' (length=15)
+//                 public 'private_ip_address' => null
 //                 public 'locked' => boolean false
 //                 public 'status' => string 'active' (length=6)
 //                 public 'created_at' => string '2013-01-07T01:37:21Z' (length=20)
