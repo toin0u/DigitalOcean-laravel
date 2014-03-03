@@ -14,8 +14,8 @@
     }],
 
     "support" : {
-        "issues" : "https://github.com/toin0u/Geotools-laravel/issues",
-        "source" : "https://github.com/toin0u/Geotools-laravel"
+        "issues" : "https://github.com/toin0u/DigitalOcean-laravel/issues",
+        "source" : "https://github.com/toin0u/DigitalOcean-laravel"
     },
 
     "require" : {
