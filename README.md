@@ -1,6 +1,9 @@
 DigitalOcean for Lavarel 4
 ==========================
 
+The *version 2* of the API will be available soon!
+Please visit [Laravel DigitalOcean](https://github.com/GrahamCampbell/Laravel-DigitalOcean) by [Graham Campbell](https://github.com/GrahamCampbell).
+
 This package allows you to use [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) in [**Laravel 4**](http://laravel.com/).
 
 [![Latest Stable Version](https://poser.pugx.org/toin0u/DigitalOcean-laravel/v/stable.png)](https://packagist.org/packages/toin0u/DigitalOcean-laravel)
